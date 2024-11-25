@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Styling h1 */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Styling container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling result text */
+div p {
+    text-align: center;
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+body {
+    background-image: url('/static/core/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color opacity as needed */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}

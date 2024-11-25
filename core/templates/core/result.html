@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'core/css/result.css' %}">
+    <title>Concrete Strength</title>
+</head>
+<body>
+    <h1>Concrete rating</h1>
+    <div>
+        {% if pred < 30 %}
+            <p>Very Poor quality: {{pred}}</p>
+        {% elif pred >= 30 and pred < 50 %}
+            <p>Poor quality: {{pred}}</p>
+        {% elif pred >= 50 and pred < 80 %}
+            <p>Moderate quality: {{pred}}</p>
+        {% else %}
+            <p>Good quality: {{pred}}</p>
+        {% endif %}
+    </div>
+    
+</body>
+</html>
